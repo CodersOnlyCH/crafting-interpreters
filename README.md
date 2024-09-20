@@ -1,6 +1,7 @@
 # crafting-interpreters
 
+![banner-crafting-interpreters.png](resources/banner-crafting-interpreters.png)
 
-# links
+## links
 
 https://craftinginterpreters.com/
