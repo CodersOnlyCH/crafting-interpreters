@@ -1,4 +1,4 @@
-# crafting-interpreters
+# Crafting Interpreters Book Study Group
 
 ![banner-crafting-interpreters.png](resources/banner-crafting-interpreters.png)
 
