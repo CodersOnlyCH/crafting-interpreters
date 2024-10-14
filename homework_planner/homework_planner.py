@@ -5,6 +5,39 @@ from typing import List
 import pytz
 import yaml
 
+chapters = [
+    'https://craftinginterpreters.com/introduction.html',
+    'https://craftinginterpreters.com/a-map-of-the-territory.html',
+    'https://craftinginterpreters.com/the-lox-language.html',
+    'https://craftinginterpreters.com/scanning.html',
+    'https://craftinginterpreters.com/representing-code.html',
+    'https://craftinginterpreters.com/parsing-expressions.html',
+    'https://craftinginterpreters.com/evaluating-expressions.html',
+    'https://craftinginterpreters.com/statements-and-state.html',
+    'https://craftinginterpreters.com/control-flow.html',
+    'https://craftinginterpreters.com/functions.html',
+    'https://craftinginterpreters.com/resolving-and-binding.html',
+    'https://craftinginterpreters.com/classes.html',
+    'https://craftinginterpreters.com/inheritance.html',
+    'https://craftinginterpreters.com/chunks-of-bytecode.html',
+    'https://craftinginterpreters.com/a-virtual-machine.html',
+    'https://craftinginterpreters.com/scanning-on-demand.html',
+    'https://craftinginterpreters.com/compiling-expressions.html',
+    'https://craftinginterpreters.com/types-of-values.html',
+    'https://craftinginterpreters.com/strings.html',
+    'https://craftinginterpreters.com/hash-tables.html',
+    'https://craftinginterpreters.com/global-variables.html',
+    'https://craftinginterpreters.com/local-variables.html',
+    'https://craftinginterpreters.com/jumping-back-and-forth.html',
+    'https://craftinginterpreters.com/calls-and-functions.html',
+    'https://craftinginterpreters.com/closures.html',
+    'https://craftinginterpreters.com/garbage-collection.html',
+    'https://craftinginterpreters.com/classes-and-instances.html',
+    'https://craftinginterpreters.com/methods-and-initializers.html',
+    'https://craftinginterpreters.com/superclasses.html',
+    'https://craftinginterpreters.com/optimization.html',
+]
+
 
 def planning_dict():
     a = Path('tasks.yaml')
@@ -43,21 +76,6 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
         course_notes = "[course notes](reference/berkeley_cs61a_material/course_reader_vol_2/notes.pdf)"
         homework = "[homework](reference/berkeley_cs61a_material/course_reader_vol_1/hw.pdf)"
 
-    if "book_exercises" in value:
-        homework_line_extra = f' including book exercises {value["book_exercises"]}'
-    else:
-        homework_line_extra = ""
-
-    if "lab_exercises" in value:
-        lab_line_extra = f' including book exercises {value["lab_exercises"]}'
-    else:
-        lab_line_extra = ""
-
-    if "nolabs" not in value:
-        list1.extend([f'do {labs} for week {week}{lab_line_extra}',
-                      ]
-                     )
-
     if "Reading" in value:
         if value["Reading"] != "":
             list1.extend([f'read the book {value["Reading"]}'])
@@ -67,29 +85,6 @@ def homework_this_week(value: dict, target='markdown') -> List[str]:
         print(title)
         path = value["Reading_extra"]["path"]
         list1.extend([f'read [{title}]({path})'])
-
-    if "Lectures" in value:
-        list1.extend([f'watch the lectures {value["Lectures"]}'])
-
-    if "video" in value:
-        list1.extend([f'video link : {value["video"]}'])
-
-    list1.extend([
-        f'read the {course_notes} for week {week}',
-        f'do {homework} for week {week}{homework_line_extra}',
-    ])
-
-    if "solutions" in value:
-        solution = value["solutions"]
-        list1.extend([
-            f'cross-check your homework ({solution})',
-        ])
-
-    if "project" in value:
-        list1.extend([f'do {value["project"]}'])
-
-    if "exams" in value:
-        list1.extend([f'do {value["exams"]}'])
 
     return list1
 

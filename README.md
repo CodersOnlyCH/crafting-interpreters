@@ -31,6 +31,10 @@ collection. Your brain will light up with new ideas, and your hands will get dir
 
 https://craftinginterpreters.com/
 
+### Articles
+
+https://corecursive.com/032-bob-nystrom-on-building-an-interpreter/
+
 ### repo
 
 https://github.com/munificent/craftinginterpreters
