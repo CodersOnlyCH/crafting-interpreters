@@ -1,6 +1,6 @@
 .idea/
 .DS_Store
-homework_planner/output/
+/homework_planner/output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
