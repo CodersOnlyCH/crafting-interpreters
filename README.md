@@ -38,6 +38,7 @@ https://corecursive.com/032-bob-nystrom-on-building-an-interpreter/
 ### repo
 
 https://github.com/munificent/craftinginterpreters
+https://github.com/CodersOnlyCH/crafting-interpreters
 
 # Timetable
 
@@ -53,7 +54,6 @@ https://github.com/munificent/craftinginterpreters
 
 - buy the book so that Robert Nystrom gets a little bit of money for his superb work
 
-
 We **review** this work on Review Meeting 1 on Thursday 09 January 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 2 (A map of the territory)
@@ -63,8 +63,6 @@ We **review** this work on Review Meeting 1 on Thursday 09 January 2025, 19:00 C
 - Read chapter 2: `https://craftinginterpreters.com/a-map-of-the-territory.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 2 on Thursday 23 January 2025, 19:00 CET
 
@@ -76,8 +74,6 @@ We **review** this work on Review Meeting 2 on Thursday 23 January 2025, 19:00 C
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 3 on Thursday 27 February 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 4 (Scanning)
@@ -87,8 +83,6 @@ We **review** this work on Review Meeting 3 on Thursday 27 February 2025, 19:00 
 - Read chapter 4: `https://craftinginterpreters.com/scanning.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 4 on Thursday 13 March 2025, 19:00 CET
 
@@ -100,8 +94,6 @@ We **review** this work on Review Meeting 4 on Thursday 13 March 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 5 on Thursday 27 March 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 6 (Parsing expressions)
@@ -111,8 +103,6 @@ We **review** this work on Review Meeting 5 on Thursday 27 March 2025, 19:00 CET
 - Read chapter 6: `https://craftinginterpreters.com/parsing-expressions.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 6 on Thursday 10 April 2025, 19:00 CET
 
@@ -124,8 +114,6 @@ We **review** this work on Review Meeting 6 on Thursday 10 April 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 7 on Thursday 08 May 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 8 (Statements and state)
@@ -135,8 +123,6 @@ We **review** this work on Review Meeting 7 on Thursday 08 May 2025, 19:00 CET
 - Read chapter 8: `https://craftinginterpreters.com/statements-and-state.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 8 on Thursday 22 May 2025, 19:00 CET
 
@@ -148,8 +134,6 @@ We **review** this work on Review Meeting 8 on Thursday 22 May 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 9 on Thursday 12 June 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 10 (Functions)
@@ -159,8 +143,6 @@ We **review** this work on Review Meeting 9 on Thursday 12 June 2025, 19:00 CET
 - Read chapter 10: `https://craftinginterpreters.com/functions.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 10 on Thursday 26 June 2025, 19:00 CET
 
@@ -172,8 +154,6 @@ We **review** this work on Review Meeting 10 on Thursday 26 June 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 11 on Thursday 10 July 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 12 (Classes)
@@ -183,8 +163,6 @@ We **review** this work on Review Meeting 11 on Thursday 10 July 2025, 19:00 CET
 - Read chapter 12: `https://craftinginterpreters.com/classes.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 12 on Thursday 28 August 2025, 19:00 CET
 
@@ -196,8 +174,6 @@ We **review** this work on Review Meeting 12 on Thursday 28 August 2025, 19:00 C
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 13 on Thursday 11 September 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 14 (Chunks of bytecode)
@@ -207,8 +183,6 @@ We **review** this work on Review Meeting 13 on Thursday 11 September 2025, 19:0
 - Read chapter 14: `https://craftinginterpreters.com/chunks-of-bytecode.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 14 on Thursday 25 September 2025, 19:00 CET
 
@@ -220,8 +194,6 @@ We **review** this work on Review Meeting 14 on Thursday 25 September 2025, 19:0
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 15 on Thursday 23 October 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 16 (Scanning on demand)
@@ -231,8 +203,6 @@ We **review** this work on Review Meeting 15 on Thursday 23 October 2025, 19:00 
 - Read chapter 16: `https://craftinginterpreters.com/scanning-on-demand.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 16 on Thursday 13 November 2025, 19:00 CET
 
@@ -244,8 +214,6 @@ We **review** this work on Review Meeting 16 on Thursday 13 November 2025, 19:00
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 17 on Thursday 27 November 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 18 (Types of values)
@@ -255,8 +223,6 @@ We **review** this work on Review Meeting 17 on Thursday 27 November 2025, 19:00
 - Read chapter 18: `https://craftinginterpreters.com/types-of-values.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 18 on Thursday 11 December 2025, 19:00 CET
 
@@ -268,8 +234,6 @@ We **review** this work on Review Meeting 18 on Thursday 11 December 2025, 19:00
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 19 on Thursday 08 January 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 20 (Hash tables)
@@ -279,8 +243,6 @@ We **review** this work on Review Meeting 19 on Thursday 08 January 2026, 19:00 
 - Read chapter 20: `https://craftinginterpreters.com/hash-tables.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 20 on Thursday 22 January 2026, 19:00 CET
 
@@ -292,8 +254,6 @@ We **review** this work on Review Meeting 20 on Thursday 22 January 2026, 19:00 
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 21 on Thursday 26 February 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 22 (Local variables)
@@ -303,8 +263,6 @@ We **review** this work on Review Meeting 21 on Thursday 26 February 2026, 19:00
 - Read chapter 22: `https://craftinginterpreters.com/local-variables.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 22 on Thursday 12 March 2026, 19:00 CET
 
@@ -316,8 +274,6 @@ We **review** this work on Review Meeting 22 on Thursday 12 March 2026, 19:00 CE
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 23 on Thursday 26 March 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 24 (Calls and functions)
@@ -327,8 +283,6 @@ We **review** this work on Review Meeting 23 on Thursday 26 March 2026, 19:00 CE
 - Read chapter 24: `https://craftinginterpreters.com/calls-and-functions.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 24 on Thursday 09 April 2026, 19:00 CET
 
@@ -340,8 +294,6 @@ We **review** this work on Review Meeting 24 on Thursday 09 April 2026, 19:00 CE
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 25 on Thursday 14 May 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 26 (Garbage collection)
@@ -351,8 +303,6 @@ We **review** this work on Review Meeting 25 on Thursday 14 May 2026, 19:00 CET
 - Read chapter 26: `https://craftinginterpreters.com/garbage-collection.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 26 on Thursday 28 May 2026, 19:00 CET
 
@@ -364,8 +314,6 @@ We **review** this work on Review Meeting 26 on Thursday 28 May 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 27 on Thursday 11 June 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 28 (Methods and initializers)
@@ -375,8 +323,6 @@ We **review** this work on Review Meeting 27 on Thursday 11 June 2026, 19:00 CET
 - Read chapter 28: `https://craftinginterpreters.com/methods-and-initializers.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 28 on Thursday 25 June 2026, 19:00 CET
 
@@ -388,8 +334,6 @@ We **review** this work on Review Meeting 28 on Thursday 25 June 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-
-
 We **review** this work on Review Meeting 29 on Thursday 09 July 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group: Chapter 30 (Optimization)
@@ -399,8 +343,6 @@ We **review** this work on Review Meeting 29 on Thursday 09 July 2026, 19:00 CET
 - Read chapter 30: `https://craftinginterpreters.com/optimization.html`
 
 - do the challenges of the chapter
-
-
 
 We **review** this work on Review Meeting 30 on Thursday 27 August 2026, 19:00 CET
 
