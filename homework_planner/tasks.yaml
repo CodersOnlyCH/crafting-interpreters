@@ -1,23 +1,152 @@
-Week 0:
-  week: 0
-  Theme: "Kick-off meeting"
-  Reading: "Introduction"
-  Reading_urls: []
-  Additional_resources:
-  Instructions: "Buy the book"
-  Review_Meeting: "January 9th January, 19.00 CET"
-Week 1:
+Week 01:
+  Review_Meeting: Thursday 09 January 2025, 19:00 CET
+  Title: Introduction
+  reading_urls: https://craftinginterpreters.com/introduction.html
+  extra_homework:
+    - buy the book so that Robert Nystrom gets a little bit of money for his superb work
   week: 1
-  Theme: "Functional Programming"
-  Reading: "Section 1.1, pages 1-31"
-  Lectures: "1 & 2"
-  solutions: "reference/berkeley_cs61a_material/solutions/week1.txt"
-  Review_Meeting: "Wednesday 24th March, 18.30 CET"
-Week 2:
+Week 02:
+  Review_Meeting: Thursday 23 January 2025, 19:00 CET
+  Title: A map of the territory
+  reading_urls: https://craftinginterpreters.com/a-map-of-the-territory.html
   week: 2
-  Theme: "Higher-order procedures"
-  Reading: "Section 1.3 - 1.2 skipped for now"
-  Lectures: "3 & 4 & 5 & 6"
-  book_exercises: "1.31(a), 1.32(a), 1.33, 1.40, 1.41, 1.43, 1.46"
-  solutions: "reference/berkeley_cs61a_material/solutions/week2.txt"
-  Review_Meeting: "Wednesday 7th April, 18.30 CET"
+Week 03:
+  Review_Meeting: Thursday 27 February 2025, 19:00 CET
+  Title: The lox language
+  reading_urls: https://craftinginterpreters.com/the-lox-language.html
+  week: 3
+Week 04:
+  Review_Meeting: Thursday 13 March 2025, 19:00 CET
+  Title: Scanning
+  reading_urls: https://craftinginterpreters.com/scanning.html
+  week: 4
+Week 05:
+  Review_Meeting: Thursday 27 March 2025, 19:00 CET
+  Title: Representing code
+  reading_urls: https://craftinginterpreters.com/representing-code.html
+  week: 5
+Week 06:
+  Review_Meeting: Thursday 10 April 2025, 19:00 CET
+  Title: Parsing expressions
+  reading_urls: https://craftinginterpreters.com/parsing-expressions.html
+  week: 6
+Week 07:
+  Review_Meeting: Thursday 08 May 2025, 19:00 CET
+  Title: Evaluating expressions
+  reading_urls: https://craftinginterpreters.com/evaluating-expressions.html
+  week: 7
+Week 08:
+  Review_Meeting: Thursday 22 May 2025, 19:00 CET
+  Title: Statements and state
+  reading_urls: https://craftinginterpreters.com/statements-and-state.html
+  week: 8
+Week 09:
+  Review_Meeting: Thursday 12 June 2025, 19:00 CET
+  Title: Control flow
+  reading_urls: https://craftinginterpreters.com/control-flow.html
+  week: 9
+Week 10:
+  Review_Meeting: Thursday 26 June 2025, 19:00 CET
+  Title: Functions
+  reading_urls: https://craftinginterpreters.com/functions.html
+  week: 10
+Week 11:
+  Review_Meeting: Thursday 10 July 2025, 19:00 CET
+  Title: Resolving and binding
+  reading_urls: https://craftinginterpreters.com/resolving-and-binding.html
+  week: 11
+Week 12:
+  Review_Meeting: Thursday 28 August 2025, 19:00 CET
+  Title: Classes
+  reading_urls: https://craftinginterpreters.com/classes.html
+  week: 12
+Week 13:
+  Review_Meeting: Thursday 11 September 2025, 19:00 CET
+  Title: Inheritance
+  reading_urls: https://craftinginterpreters.com/inheritance.html
+  week: 13
+Week 14:
+  Review_Meeting: Thursday 25 September 2025, 19:00 CET
+  Title: Chunks of bytecode
+  reading_urls: https://craftinginterpreters.com/chunks-of-bytecode.html
+  week: 14
+Week 15:
+  Review_Meeting: Thursday 23 October 2025, 19:00 CET
+  Title: A virtual machine
+  reading_urls: https://craftinginterpreters.com/a-virtual-machine.html
+  week: 15
+Week 16:
+  Review_Meeting: Thursday 13 November 2025, 19:00 CET
+  Title: Scanning on demand
+  reading_urls: https://craftinginterpreters.com/scanning-on-demand.html
+  week: 16
+Week 17:
+  Review_Meeting: Thursday 27 November 2025, 19:00 CET
+  Title: Compiling expressions
+  reading_urls: https://craftinginterpreters.com/compiling-expressions.html
+  week: 17
+Week 18:
+  Review_Meeting: Thursday 11 December 2025, 19:00 CET
+  Title: Types of values
+  reading_urls: https://craftinginterpreters.com/types-of-values.html
+  week: 18
+Week 19:
+  Review_Meeting: Thursday 08 January 2026, 19:00 CET
+  Title: Strings
+  reading_urls: https://craftinginterpreters.com/strings.html
+  week: 19
+Week 20:
+  Review_Meeting: Thursday 22 January 2026, 19:00 CET
+  Title: Hash tables
+  reading_urls: https://craftinginterpreters.com/hash-tables.html
+  week: 20
+Week 21:
+  Review_Meeting: Thursday 26 February 2026, 19:00 CET
+  Title: Global variables
+  reading_urls: https://craftinginterpreters.com/global-variables.html
+  week: 21
+Week 22:
+  Review_Meeting: Thursday 12 March 2026, 19:00 CET
+  Title: Local variables
+  reading_urls: https://craftinginterpreters.com/local-variables.html
+  week: 22
+Week 23:
+  Review_Meeting: Thursday 26 March 2026, 19:00 CET
+  Title: Jumping back and forth
+  reading_urls: https://craftinginterpreters.com/jumping-back-and-forth.html
+  week: 23
+Week 24:
+  Review_Meeting: Thursday 09 April 2026, 19:00 CET
+  Title: Calls and functions
+  reading_urls: https://craftinginterpreters.com/calls-and-functions.html
+  week: 24
+Week 25:
+  Review_Meeting: Thursday 14 May 2026, 19:00 CET
+  Title: Closures
+  reading_urls: https://craftinginterpreters.com/closures.html
+  week: 25
+Week 26:
+  Review_Meeting: Thursday 28 May 2026, 19:00 CET
+  Title: Garbage collection
+  reading_urls: https://craftinginterpreters.com/garbage-collection.html
+  week: 26
+Week 27:
+  Review_Meeting: Thursday 11 June 2026, 19:00 CET
+  Title: Classes and instances
+  reading_urls: https://craftinginterpreters.com/classes-and-instances.html
+  week: 27
+Week 28:
+  Review_Meeting: Thursday 25 June 2026, 19:00 CET
+  Title: Methods and initializers
+  reading_urls: https://craftinginterpreters.com/methods-and-initializers.html
+  week: 28
+Week 29:
+  Review_Meeting: Thursday 09 July 2026, 19:00 CET
+  Title: Superclasses
+  reading_urls: https://craftinginterpreters.com/superclasses.html
+  week: 29
+Week 30:
+  Review_Meeting: Thursday 27 August 2026, 19:00 CET
+  Title: Optimization
+  reading_urls: https://craftinginterpreters.com/optimization.html
+  week: 30

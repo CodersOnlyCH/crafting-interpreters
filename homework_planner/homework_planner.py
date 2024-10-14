@@ -5,39 +5,6 @@ from typing import List
 import pytz
 import yaml
 
-chapters = [
-    'https://craftinginterpreters.com/introduction.html',
-    'https://craftinginterpreters.com/a-map-of-the-territory.html',
-    'https://craftinginterpreters.com/the-lox-language.html',
-    'https://craftinginterpreters.com/scanning.html',
-    'https://craftinginterpreters.com/representing-code.html',
-    'https://craftinginterpreters.com/parsing-expressions.html',
-    'https://craftinginterpreters.com/evaluating-expressions.html',
-    'https://craftinginterpreters.com/statements-and-state.html',
-    'https://craftinginterpreters.com/control-flow.html',
-    'https://craftinginterpreters.com/functions.html',
-    'https://craftinginterpreters.com/resolving-and-binding.html',
-    'https://craftinginterpreters.com/classes.html',
-    'https://craftinginterpreters.com/inheritance.html',
-    'https://craftinginterpreters.com/chunks-of-bytecode.html',
-    'https://craftinginterpreters.com/a-virtual-machine.html',
-    'https://craftinginterpreters.com/scanning-on-demand.html',
-    'https://craftinginterpreters.com/compiling-expressions.html',
-    'https://craftinginterpreters.com/types-of-values.html',
-    'https://craftinginterpreters.com/strings.html',
-    'https://craftinginterpreters.com/hash-tables.html',
-    'https://craftinginterpreters.com/global-variables.html',
-    'https://craftinginterpreters.com/local-variables.html',
-    'https://craftinginterpreters.com/jumping-back-and-forth.html',
-    'https://craftinginterpreters.com/calls-and-functions.html',
-    'https://craftinginterpreters.com/closures.html',
-    'https://craftinginterpreters.com/garbage-collection.html',
-    'https://craftinginterpreters.com/classes-and-instances.html',
-    'https://craftinginterpreters.com/methods-and-initializers.html',
-    'https://craftinginterpreters.com/superclasses.html',
-    'https://craftinginterpreters.com/optimization.html',
-]
-
 
 def planning_dict():
     a = Path('tasks.yaml')
@@ -107,14 +74,23 @@ def markdown_output():
     target = target_dir / 'homework.md'
     with target.open('w') as f:
         all_weeks = planning_dict()
+        print(all_weeks)
         for week in all_weeks:
-            f.write(f'## {week} ({all_weeks[week]["Theme"]})\n\n')
-            for h in homework_this_week(all_weeks[week]):
-                print(h)
-                f.write(f'- {h}\n')
-            d = next(dg)
+            f.write(f'## Crafting Interpreters Study Group: Chapter {all_weeks[week]["week"]} ({all_weeks[week]["Title"]})\n\n')
+
+            f.write(f'### Homework:\n\n')
+            f.write(f'- Read chapter {all_weeks[week]["week"]}: `{all_weeks[week]["reading_urls"]}`\n\n' )
+            f.write(f'- do the challenges of the chapter\n\n')
+
+            if 'extra_homework' in all_weeks[week]:
+
+                f.write(f'### Extra Homework:\n\n')
+                for entry in all_weeks[week]["extra_homework"]:
+                   f.write(f'- {entry}\n')
+
+
             f.write(
-                f'\n\nWe **review** this work on Review Meeting {week} on {all_weeks[week]["Review_Meeting"]}')
+                f'\n\nWe **review** this work on Review Meeting {all_weeks[week]["week"]} on {all_weeks[week]["Review_Meeting"]}')
             f.write('\n\n')
 
 
@@ -126,7 +102,7 @@ def discord_output():
 
         all_weeks = planning_dict()
         for week in all_weeks:
-            f.write(f'{week} ({all_weeks[week]["Theme"]})\n\n')
+            #     f.write(f'{week} ({all_weeks[week]["Theme"]})\n\n')
             for h in homework_this_week(all_weeks[week], target='discord'):
                 f.write(f'- {h}\n')
             f.write(
