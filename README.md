@@ -45,9 +45,15 @@ https://github.com/CodersOnlyCH/crafting-interpreters
 
 ## Crafting Interpreters Study Group: Chapter 1 (Introduction)
 
+The idea is: we study individually, but on an agreed schedule (e.g. read Chapter 3 and do the challenges), and have 
+a regular online meetup where we exchange our issues and help each other. Provisionally the schedule is every two weeks, 
+but we'll see what pace is comfortable/sustainable. We skip the meetings during the school holidays of the canton of 
+Zuerich.
 ### Homework:
 
-- Read chapter 1: `https://craftinginterpreters.com/introduction.html`
+- Read chapter 1:
+
+https://craftinginterpreters.com/introduction.html
 
 - do the challenges of the chapter
 
