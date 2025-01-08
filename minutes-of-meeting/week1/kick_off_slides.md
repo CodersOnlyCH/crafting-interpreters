@@ -12,39 +12,56 @@ Welcome! - please: sound off, video on
 
 ---
 
-## Past Book Studies
-
-mar 2021 - mar 2022
-![Wizard Book picture](Wizard-book-meetup.png)
-
-
----
-
-## Past Book Studies
-
-feb - oct 2023
-![ddd-front-image.png](ddd-front-image.png)
----
-
 # Agenda Kick-off
 
-- Who are we (country)
+- Your host Coders Only
 - Our Goal
 - the book Crafting Interpreters
 - Our Repo
 - Our Discord server
 - Pace
 - Questions & Answers
+- Analysis/Talk chapter 1
+
+---
+
+## Why do book study groups?
+
+- Peer pressure keeps motivation high
+- Shared resources
+- Diverse group can offer different insights
+- moderate pace means we can study 'on the side'
+---
+
+## Past Book Studies
+
+### Wizard Book Mar 2021 - Mar 2022
+
+![Wizard Book picture](Wizard-book-meetup.png)
+
+---
+
+## Past Book Studies
+
+### Blue Book Book Feb - Oct 2023
+
+![ddd-front-image.png](ddd-front-image.png)
 
 ---
 
 ![coders-only-logo](coders-only-logo.jpg)
 
-Coders Only is a swiss registered association
-We organise events and here we are moderating the studying and providing the infrastructure
-Thanks to `Coders Only` for hosting our infrastructure
+Coders Only is a community of software developers community of software developers who find that even with decades of
+experience, there’s always room to learn, to grow, to get better at our craft.
+ 
+---
 
-- videoconferencing on https://whereby.com/
+## Coders Only organise:
+
+- Events (an Unconference and a Code Retreat)
+- Weekly Study Groups
+- a Gender Minority Meetup for Coders
+- a monthly in real life Stammtisch/Meetup in Zuerich and in Bern
 
 ---
 
@@ -68,45 +85,44 @@ Thanks to `Coders Only` for hosting our infrastructure
 
 ## Embrace your ignorance
 
-We are here to learn
+We are here to learn!
 
 ---
+## Why this book? 
 
-# The Book
-
-Written very concisely
-
-- read *everything* slowly
-    - Foreword, introduction, footnotes
-- don't get scared by the hairy mathematical examples, we won't use them
+- recommended by grugbrain.dev (Carson Gross)
+- comes highly recommended
 
 ---
+## What should we expect?
 
-## How do we do this?
-
-1. We are in a group
-
----
-
-## How do we do this?
-
-1. We are in a group
-2. We take small bites
+- Intellectual stimulation
+  - not immediately practical
+- Understanding how things work under the hood
 
 ---
+## What will we be doing
 
-## How do we do this?
+- creating a `simple` language (Lox) from scratch
 
-1. We are in a group
-2. We take small bites
+- Starting from Chapter 4, we will be typing in, line-by line, our language.
+  - each line will be explained
+  - code will always work
+---
+## For next session (Jan 23)
+
+- Read chapters 1, 2, 3
+- setup IDE/makefiles for Java
+- if you don't know C, learn C.
 
 ---
 
 # Pace
 
-The difficulty of the homework will determine the pace
+- The difficulty of the homework will determine the pace
+    - assuming that this can be done 'on the side', i.e. with a job/family
 
-- initial 2-3 weeks: OK?
+- we can change the pace if we go too fast/too slow
 
 ---
 
@@ -117,7 +133,16 @@ The difficulty of the homework will determine the pace
 - Sessions: invites through Meetup
 - Videoconferencing: single URL:
     - https://codersonly.whereby.com/hello
+- our Repo:
+    - https://github.com/CodersOnlyCH/crafting-interpreters
 
 ---
 
 # Questions & Answers
+
+---
+
+# Round 1
+
+- What did you think of the first chapter?
+- 
