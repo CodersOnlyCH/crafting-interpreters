@@ -37,11 +37,11 @@ https://corecursive.com/032-bob-nystrom-on-building-an-interpreter/
 
 ### repo
 
-### our repo
+### robert Nystrom's repo:
 
 https://github.com/munificent/craftinginterpreters
 
-### robert Nystrom's repo:
+### our repo
 
 https://github.com/CodersOnlyCH/crafting-interpreters
 

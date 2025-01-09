@@ -14,18 +14,17 @@ Welcome! - please: sound off, video on
 
 # Agenda Kick-off
 
+- why book study groups?
 - Your host Coders Only
-- Our Goal
 - the book Crafting Interpreters
-- Our Repo
-- Our Discord server
+- Our Infrastructure
 - Pace
 - Questions & Answers
 - Analysis/Talk chapter 1
 
 ---
 
-## Why do book study groups?
+## Why book study groups?
 
 - Peer pressure keeps motivation high
 - Shared resources
