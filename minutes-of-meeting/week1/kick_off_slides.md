@@ -64,7 +64,7 @@ experience, there’s always room to learn, to grow, to get better at our craft.
 
 ---
 
-# Etiquette
+## Etiquette
 
 - stay on mute unless you talk
 - raise your hand if you want to talk
@@ -72,7 +72,7 @@ experience, there’s always room to learn, to grow, to get better at our craft.
 
 ---
 
-# Zero tolerance for discrimination
+## Zero tolerance for discrimination
 
 - We are trying to create a safe environment for everybody
 - We will not tolerate any form of discrimination
@@ -80,9 +80,9 @@ experience, there’s always room to learn, to grow, to get better at our craft.
 
 ---
 
-# Safe Environment
+## Safe Environment
 
-## Embrace your ignorance
+### Embrace your ignorance
 
 We are here to learn!
 
@@ -98,6 +98,10 @@ We are here to learn!
 - Intellectual stimulation
   - not immediately practical
 - Understanding how things work under the hood
+- Three parts:
+  - defining the language `Lox`
+  - writing an evaluator in Java, `jlox`
+  - writing an evaluator in C, `clox`
 
 ---
 ## What will we be doing
@@ -107,7 +111,9 @@ We are here to learn!
 - Starting from Chapter 4, we will be typing in, line-by line, our language.
   - each line will be explained
   - code will always work
+
 ---
+
 ## For next session (Jan 23)
 
 - Read chapters 1, 2, 3
@@ -116,27 +122,37 @@ We are here to learn!
 
 ---
 
-# Pace
+## Pace
 
-- The difficulty of the homework will determine the pace
+- We are pacing this for working software engineers.
     - assuming that this can be done 'on the side', i.e. with a job/family
+    - we skip any week that is during swiss school holidays
 
-- we can change the pace if we go too fast/too slow
+- We can change the pace if we go too fast/too slow
+  - initial setting: 1 chapter = 2 weeks
+    - except next time, 2 chapters = 2 weeks
 
 ---
 
-# Our logistics
+## Our logistics
 
-- Comprehension questions, homework questions: Discord channel
+- Comprehension questions, homework questions: **Discord channel**
     - https://discord.gg/xw7wAUe2nx
 - Sessions: invites through Meetup
 - Videoconferencing: single URL:
     - https://codersonly.whereby.com/hello
 - our Repo:
     - https://github.com/CodersOnlyCH/crafting-interpreters
-
+        - for sharing resources
 ---
 
+## For next session (Jan 23)
+
+- Read chapters 1, 2, 3
+- setup IDE/makefiles for Java
+- if you don't know C, learn C.
+
+---
 # Questions & Answers
 
 ---
