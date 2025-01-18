@@ -1,9 +1,7 @@
 from pathlib import Path
 from urllib.parse import urlparse
 
-import yaml
-
-chapters = [
+chapter_urls = [
     'https://craftinginterpreters.com/introduction.html',
     'https://craftinginterpreters.com/a-map-of-the-territory.html',
     'https://craftinginterpreters.com/the-lox-language.html',
@@ -35,10 +33,9 @@ chapters = [
     'https://craftinginterpreters.com/superclasses.html',
     'https://craftinginterpreters.com/optimization.html',
 ]
-dates = [
+dates_with_no_holidays = [
     'Thursday 09 January 2025, 19:00 CET',
     'Thursday 23 January 2025, 19:00 CET',
-    'Thursday 23 January 2025, 19:00 CET', # I want chapters 2 and 3 together
     'Thursday 27 February 2025, 19:00 CET',
     'Thursday 13 March 2025, 19:00 CET',
     'Thursday 27 March 2025, 19:00 CET',
@@ -76,35 +73,84 @@ dates = [
     'Thursday 10 December 2026, 19:00 CET',
     'Thursday 24 December 2026, 19:00 CET'
 ]
+# mapping here because sometimes I want two chapters in one session, perhaps two sessions on a single chapter?
+sessions_to_chapters = {1: [1],
+                        2: [2, 3],
+                        3: [4],
+                        4: [5],
+                        5: [6],
+                        6: [7],
+                        7: [8],
+                        8: [9],
+                        9: [10],
+                        10: [11],
+                        11: [12],
+                        12: [13],
+                        13: [14],
+                        14: [15],
+                        15: [16],
+                        16: [17],
+                        17: [18],
+                        18: [19],
+                        19: [20],
+                        20: [21],
+                        21: [22],
+                        22: [23],
+                        23: [24],
+                        24: [25],
+                        25: [26],
+                        26: [27],
+                        27: [28],
+                        28: [29],
+                        29: [30],
+                        }
 
 
-def translate_url_for_title(url: str) -> str:
+def url_to_title(url: str) -> str:
     a = urlparse(url)
     a = a.path
     a = a.lstrip('/')
     a = a.replace('-', ' ')
     a = a.replace('.html', '')
     a = a.capitalize()
-    print(a)
     return a
 
 
-def generate_tasks():
-    result = dict()
-    tasks_file = Path(__file__).parent / 'output' / 'tasksinput.yml'
-    with tasks_file.open(mode='w') as f:
-        for index, data in enumerate(zip(chapters, dates)):
-            chapter, date = data
-            i = index + 1
-            result.update({f"Week {i:02d}": {"week": index + 1,
-                                             "Title": translate_url_for_title(chapter),
-                                             "reading_urls": chapter,
-                                             "Review_Meeting": date},
-                           })
+def chapter_list() -> list[str]:
+    result = list()
+    for index, chapter_url in enumerate(chapter_urls, start=1):
+        result.append(f"chapter {index}: {chapter_url}")
+    return result
 
-        yaml.dump(result, f, default_flow_style=False)
-        print(tasks_file)
+
+def content_per_session():
+    cl = chapter_list()
+    for session, chapters in sessions_to_chapters.items():
+        relevant_chapter_list = [cl[index - 1] for index in chapters]
+
+        chapter_descriptions = " ".join(relevant_chapter_list)
+        titles = [url_to_title(chapter_urls[index - 1]) for index in chapters]
+        title_descriptions = " / ".join(titles)
+        yield (session, chapter_descriptions, title_descriptions)
+
+
+def markdown_output():
+    target_dir = Path(__file__).parent / 'output'
+    target_dir.mkdir(exist_ok=True, parents=True)
+    target = target_dir / 'Planning.md'
+    date_index = 0
+    with target.open('w') as f:
+        for session, chapter_description, Title in content_per_session():
+            f.write(f'## Crafting Interpreters Study Group:  Session {session} ({Title})\n\n')
+            f.write(f'### Homework:\n\n')
+            f.write(f'- Read {chapter_description}\n\n')
+            f.write(f'### Extra Homework:\n\n')
+            f.write(f'- do the challenges of the chapter\n\n')
+            f.write(f'\n\nWe **review** this work on {dates_with_no_holidays[date_index]}\n\n')
+            date_index += 1
 
 
 if __name__ == '__main__':
-    generate_tasks()
+    markdown_output()
+    for c in content_per_session():
+        print(c)
