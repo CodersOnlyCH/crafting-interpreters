@@ -2,7 +2,7 @@
 
 Let's study `Crafting Interpreters` together.
 
-![banner-crafting-interpreters.png](resources/banner-crafting-interpreters.png)
+![banner-crafting-interpreters.png](resources/images/banner-crafting-interpreters.png)
 
 The idea is: we study individually, but on an agreed schedule (e.g. read Chapter 3 and do the challenges), and have
 a regular online meetup where we exchange our issues and help each other. Provisionally the schedule is every two weeks,
