@@ -6,5 +6,8 @@
 - __CMake__ Tutorial: [Introduction to modern CMake](https://cliutils.gitlab.io/modern-cmake/README.html)
 - __C/C++ Online Compiler:__ [Godbolt Compiler Explorer](https://godbolt.org/)
 
+# Helpful Links for Java Coding
+- ...?
+
 # Lox Stuff
 - __Lox Online Interpreter:__ [Lox Playground](https://ajeetdsouza.github.io/loxcraft/)
