@@ -45,3 +45,12 @@ https://github.com/munificent/craftinginterpreters
 
 https://github.com/CodersOnlyCH/crafting-interpreters
 
+#### Our WIP Repos
+
+##### Nebucatnetzer (Andreas Zweili)
+
+https://git.2li.ch/Nebucatnetzer/crafting-interpreters
+
+Features:
+
+- Nix and Nix Flakes
