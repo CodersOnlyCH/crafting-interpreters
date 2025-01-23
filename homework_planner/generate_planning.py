@@ -36,6 +36,7 @@ chapter_urls = [
 dates_with_no_holidays = [
     'Thursday 09 January 2025, 19:00 CET',
     'Thursday 23 January 2025, 19:00 CET',
+    'Thursday 13 February 2025, 19:00 CET',
     'Thursday 27 February 2025, 19:00 CET',
     'Thursday 13 March 2025, 19:00 CET',
     'Thursday 27 March 2025, 19:00 CET',

@@ -8,18 +8,21 @@
 
 - do the challenges of the chapter
 
+
+
 We **review** this work on Thursday 09 January 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 2 (A map of the territory / The lox language)
 
 ### Homework:
 
-- Read chapter 2: https://craftinginterpreters.com/a-map-of-the-territory.html chapter
-  3: https://craftinginterpreters.com/the-lox-language.html
+- Read chapter 2: https://craftinginterpreters.com/a-map-of-the-territory.html chapter 3: https://craftinginterpreters.com/the-lox-language.html
 
 ### Extra Homework:
 
 - do the challenges of the chapter
+
+
 
 We **review** this work on Thursday 23 January 2025, 19:00 CET
 
@@ -33,7 +36,9 @@ We **review** this work on Thursday 23 January 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 27 February 2025, 19:00 CET
+
+
+We **review** this work on Thursday 13 February 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 4 (Representing code)
 
@@ -45,7 +50,9 @@ We **review** this work on Thursday 27 February 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 13 March 2025, 19:00 CET
+
+
+We **review** this work on Thursday 27 February 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 5 (Parsing expressions)
 
@@ -57,7 +64,9 @@ We **review** this work on Thursday 13 March 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 27 March 2025, 19:00 CET
+
+
+We **review** this work on Thursday 13 March 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 6 (Evaluating expressions)
 
@@ -69,7 +78,9 @@ We **review** this work on Thursday 27 March 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 10 April 2025, 19:00 CET
+
+
+We **review** this work on Thursday 27 March 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 7 (Statements and state)
 
@@ -81,7 +92,9 @@ We **review** this work on Thursday 10 April 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 08 May 2025, 19:00 CET
+
+
+We **review** this work on Thursday 10 April 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 8 (Control flow)
 
@@ -93,7 +106,9 @@ We **review** this work on Thursday 08 May 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 22 May 2025, 19:00 CET
+
+
+We **review** this work on Thursday 08 May 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 9 (Functions)
 
@@ -105,7 +120,9 @@ We **review** this work on Thursday 22 May 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 12 June 2025, 19:00 CET
+
+
+We **review** this work on Thursday 22 May 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 10 (Resolving and binding)
 
@@ -117,7 +134,9 @@ We **review** this work on Thursday 12 June 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 26 June 2025, 19:00 CET
+
+
+We **review** this work on Thursday 12 June 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 11 (Classes)
 
@@ -129,7 +148,9 @@ We **review** this work on Thursday 26 June 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 10 July 2025, 19:00 CET
+
+
+We **review** this work on Thursday 26 June 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 12 (Inheritance)
 
@@ -141,7 +162,9 @@ We **review** this work on Thursday 10 July 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 28 August 2025, 19:00 CET
+
+
+We **review** this work on Thursday 10 July 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 13 (Chunks of bytecode)
 
@@ -153,7 +176,9 @@ We **review** this work on Thursday 28 August 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 11 September 2025, 19:00 CET
+
+
+We **review** this work on Thursday 28 August 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 14 (A virtual machine)
 
@@ -165,7 +190,9 @@ We **review** this work on Thursday 11 September 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 25 September 2025, 19:00 CET
+
+
+We **review** this work on Thursday 11 September 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 15 (Scanning on demand)
 
@@ -177,7 +204,9 @@ We **review** this work on Thursday 25 September 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 23 October 2025, 19:00 CET
+
+
+We **review** this work on Thursday 25 September 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 16 (Compiling expressions)
 
@@ -189,7 +218,9 @@ We **review** this work on Thursday 23 October 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 13 November 2025, 19:00 CET
+
+
+We **review** this work on Thursday 23 October 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 17 (Types of values)
 
@@ -201,7 +232,9 @@ We **review** this work on Thursday 13 November 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 27 November 2025, 19:00 CET
+
+
+We **review** this work on Thursday 13 November 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 18 (Strings)
 
@@ -213,7 +246,9 @@ We **review** this work on Thursday 27 November 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 11 December 2025, 19:00 CET
+
+
+We **review** this work on Thursday 27 November 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 19 (Hash tables)
 
@@ -225,7 +260,9 @@ We **review** this work on Thursday 11 December 2025, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 08 January 2026, 19:00 CET
+
+
+We **review** this work on Thursday 11 December 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 20 (Global variables)
 
@@ -237,7 +274,9 @@ We **review** this work on Thursday 08 January 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 22 January 2026, 19:00 CET
+
+
+We **review** this work on Thursday 08 January 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 21 (Local variables)
 
@@ -249,7 +288,9 @@ We **review** this work on Thursday 22 January 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 26 February 2026, 19:00 CET
+
+
+We **review** this work on Thursday 22 January 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 22 (Jumping back and forth)
 
@@ -261,7 +302,9 @@ We **review** this work on Thursday 26 February 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 12 March 2026, 19:00 CET
+
+
+We **review** this work on Thursday 26 February 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 23 (Calls and functions)
 
@@ -273,7 +316,9 @@ We **review** this work on Thursday 12 March 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 26 March 2026, 19:00 CET
+
+
+We **review** this work on Thursday 12 March 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 24 (Closures)
 
@@ -285,7 +330,9 @@ We **review** this work on Thursday 26 March 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 09 April 2026, 19:00 CET
+
+
+We **review** this work on Thursday 26 March 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 25 (Garbage collection)
 
@@ -297,7 +344,9 @@ We **review** this work on Thursday 09 April 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 14 May 2026, 19:00 CET
+
+
+We **review** this work on Thursday 09 April 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 26 (Classes and instances)
 
@@ -309,7 +358,9 @@ We **review** this work on Thursday 14 May 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 28 May 2026, 19:00 CET
+
+
+We **review** this work on Thursday 14 May 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 27 (Methods and initializers)
 
@@ -321,7 +372,9 @@ We **review** this work on Thursday 28 May 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 11 June 2026, 19:00 CET
+
+
+We **review** this work on Thursday 28 May 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 28 (Superclasses)
 
@@ -333,7 +386,9 @@ We **review** this work on Thursday 11 June 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 25 June 2026, 19:00 CET
+
+
+We **review** this work on Thursday 11 June 2026, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 29 (Optimization)
 
@@ -345,5 +400,7 @@ We **review** this work on Thursday 25 June 2026, 19:00 CET
 
 - do the challenges of the chapter
 
-We **review** this work on Thursday 09 July 2026, 19:00 CET
+
+
+We **review** this work on Thursday 25 June 2026, 19:00 CET
 
