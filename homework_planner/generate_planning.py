@@ -3,6 +3,7 @@ from urllib.parse import urlparse
 
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event
+from zoneinfo import ZoneInfo
 
 import argparse
 
@@ -154,7 +155,7 @@ def markdown_output():
 def ics():
     cal = Calendar()
     for date, (session, description, title) in zip(dates_with_no_holidays, content_per_session()):
-        date = datetime(*date)
+        date = datetime(tzinfo=ZoneInfo("Europe/Zurich"), *date)
         event = Event()
         event.add('summary', 'Crafting Interpreters Study Group')
         event.add('description', f'Crafting Interpreters Study Group [{session}]\n\n{title}\n\n{description}')
