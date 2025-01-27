@@ -154,11 +154,12 @@ def markdown_output():
 
 def ics():
     cal = Calendar()
+    meeting_link = "https://codersonly.whereby.com/hello"
     for date, (session, description, title) in zip(dates_with_no_holidays, content_per_session()):
         date = datetime(tzinfo=ZoneInfo("Europe/Zurich"), *date)
         event = Event()
         event.add('summary', 'Crafting Interpreters Study Group')
-        event.add('description', f'Crafting Interpreters Study Group [{session}]\n\n{title}\n\n{description}')
+        event.add('description', f'Crafting Interpreters Study Group [{session}]\n\n{title}\n\n{description}\n\nMeeting Link: {meeting_link}')
         event.add('dtstart', date)
         event.add('dtend', date + timedelta(hours=1, minutes=30))
         cal.add_component(event)
