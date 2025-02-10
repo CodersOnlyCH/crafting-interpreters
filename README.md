@@ -49,8 +49,17 @@ https://github.com/CodersOnlyCH/crafting-interpreters
 
 ##### Nebucatnetzer (Andreas Zweili)
 
-https://git.2li.ch/Nebucatnetzer/crafting-interpreters
+Link: https://git.2li.ch/Nebucatnetzer/crafting-interpreters
 
 Features:
 
 - Nix and Nix Flakes
+
+##### kungfoo
+
+Link: https://github.com/kungfoo/rlox
+
+Features:
+
+- Rust with cargo
+- `phf` for keywords
