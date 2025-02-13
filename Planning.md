@@ -108,7 +108,7 @@ We **review** this work on Thursday 10 April 2025, 19:00 CET
 
 
 
-We **review** this work on Thursday 08 May 2025, 19:00 CET
+We **review** this work on Thursday 15 May 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 9 (Functions)
 
@@ -122,7 +122,7 @@ We **review** this work on Thursday 08 May 2025, 19:00 CET
 
 
 
-We **review** this work on Thursday 22 May 2025, 19:00 CET
+We **review** this work on Thursday 29 May 2025, 19:00 CET
 
 ## Crafting Interpreters Study Group:  Session 10 (Resolving and binding)
 
