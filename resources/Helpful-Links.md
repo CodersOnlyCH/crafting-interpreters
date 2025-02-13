@@ -11,3 +11,7 @@
 
 # Lox Stuff
 - __Lox Online Interpreter:__ [Lox Playground](https://ajeetdsouza.github.io/loxcraft/)
+
+# Interpreter and Compiler resources
+- [Building Recognizers By Hand](https://www.antlr2.org/book/byhand.pdf) by Prof. Terrence Parr, original author of ANTLR explains recursive-descent parser
+- [Static vs dynamic types](https://www.slideshare.net/slideshow/static-vs-dynamic-types/32045937) by Prof. Terrence Parr, original author of ANTLR

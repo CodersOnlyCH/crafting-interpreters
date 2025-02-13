@@ -1,6 +1,12 @@
 from pathlib import Path
 from urllib.parse import urlparse
 
+from datetime import datetime, timedelta
+from icalendar import Calendar, Event
+from zoneinfo import ZoneInfo
+
+import argparse
+
 chapter_urls = [
     'https://craftinginterpreters.com/introduction.html',
     'https://craftinginterpreters.com/a-map-of-the-territory.html',
@@ -34,45 +40,44 @@ chapter_urls = [
     'https://craftinginterpreters.com/optimization.html',
 ]
 dates_with_no_holidays = [
-    'Thursday 09 January 2025, 19:00 CET',
-    'Thursday 23 January 2025, 19:00 CET',
-    'Thursday 13 February 2025, 19:00 CET',
-    'Thursday 27 February 2025, 19:00 CET',
-    'Thursday 13 March 2025, 19:00 CET',
-    'Thursday 27 March 2025, 19:00 CET',
-    'Thursday 10 April 2025, 19:00 CET',
-    'Thursday 15 May 2025, 19:00 CET',
-    'Thursday 29 May 2025, 19:00 CET',
-    'Thursday 12 June 2025, 19:00 CET',
-    'Thursday 26 June 2025, 19:00 CET',
-    'Thursday 10 July 2025, 19:00 CET',
-    'Thursday 28 August 2025, 19:00 CET',
-    'Thursday 11 September 2025, 19:00 CET',
-    'Thursday 25 September 2025, 19:00 CET',
-    'Thursday 23 October 2025, 19:00 CET',
-    'Thursday 13 November 2025, 19:00 CET',
-    'Thursday 27 November 2025, 19:00 CET',
-    'Thursday 11 December 2025, 19:00 CET',
-    'Thursday 08 January 2026, 19:00 CET',
-    'Thursday 22 January 2026, 19:00 CET',
-    'Thursday 26 February 2026, 19:00 CET',
-    'Thursday 12 March 2026, 19:00 CET',
-    'Thursday 26 March 2026, 19:00 CET',
-    'Thursday 09 April 2026, 19:00 CET',
-    'Thursday 14 May 2026, 19:00 CET',
-    'Thursday 28 May 2026, 19:00 CET',
-    'Thursday 11 June 2026, 19:00 CET',
-    'Thursday 25 June 2026, 19:00 CET',
-    'Thursday 09 July 2026, 19:00 CET',
-    'Thursday 27 August 2026, 19:00 CET',
-    'Thursday 10 September 2026, 19:00 CET',
-    'Thursday 24 September 2026, 19:00 CET',
-    'Thursday 08 October 2026, 19:00 CET',
-    'Thursday 22 October 2026, 19:00 CET',
-    'Thursday 12 November 2026, 19:00 CET',
-    'Thursday 26 November 2026, 19:00 CET',
-    'Thursday 10 December 2026, 19:00 CET',
-    'Thursday 24 December 2026, 19:00 CET'
+    [2025, 1, 9, 19, 0],
+    [2025, 1, 23, 19, 0],
+    [2025, 2, 13, 19, 0],
+    [2025, 2, 27, 19, 0],
+    [2025, 3, 13, 19, 0],
+    [2025, 3, 27, 19, 0],
+    [2025, 4, 10, 19, 0],
+    [2025, 5, 8, 19, 0],
+    [2025, 5, 22, 19, 0],
+    [2025, 6, 12, 19, 0],
+    [2025, 6, 26, 19, 0],
+    [2025, 7, 10, 19, 0],
+    [2025, 8, 28, 19, 0],
+    [2025, 9, 11, 19, 0],
+    [2025, 9, 25, 19, 0],
+    [2025, 10, 23, 19, 0],
+    [2025, 11, 13, 19, 0],
+    [2025, 11, 27, 19, 0],
+    [2025, 12, 11, 19, 0],
+    [2026, 1, 8, 19, 0],
+    [2026, 1, 22, 19, 0],
+    [2026, 2, 26, 19, 0],
+    [2026, 3, 12, 19, 0],
+    [2026, 3, 26, 19, 0],
+    [2026, 4, 9, 19, 0],
+    [2026, 5, 14, 19, 0],
+    [2026, 5, 28, 19, 0],
+    [2026, 6, 11, 19, 0],
+    [2026, 6, 25, 19, 0],
+    [2026, 7, 9, 19, 0],
+    [2026, 8, 27, 19, 0],
+    [2026, 9, 10, 19, 0],
+    [2026, 9, 24, 19, 0],
+    [2026, 10, 8, 19, 0],
+    [2026, 10, 22, 19, 0],
+    [2026, 11, 12, 19, 0],
+    [2026, 11, 26, 19, 0],
+    [2026, 12, 10, 19, 0],
 ]
 # mapping here because sometimes I want two chapters in one session, perhaps two sessions on a single chapter?
 sessions_to_chapters = {1: [1],
@@ -120,7 +125,7 @@ def url_to_title(url: str) -> str:
 def chapter_list() -> list[str]:
     result = list()
     for index, chapter_url in enumerate(chapter_urls, start=1):
-        result.append(f"chapter {index}: {chapter_url}")
+        result.append(f"Chapter {index}: {chapter_url}")
     return result
 
 
@@ -136,22 +141,41 @@ def content_per_session():
 
 
 def markdown_output():
-    target_dir = Path(__file__).parent / 'output'
-    target_dir.mkdir(exist_ok=True, parents=True)
-    target = target_dir / 'Planning.md'
     date_index = 0
-    with target.open('w') as f:
-        for session, chapter_description, Title in content_per_session():
-            f.write(f'## Crafting Interpreters Study Group:  Session {session} ({Title})\n\n')
-            f.write(f'### Homework:\n\n')
-            f.write(f'- Read {chapter_description}\n\n')
-            f.write(f'### Extra Homework:\n\n')
-            f.write(f'- do the challenges of the chapter\n\n')
-            f.write(f'\n\nWe **review** this work on {dates_with_no_holidays[date_index]}\n\n')
-            date_index += 1
+    for session, chapter_description, Title in content_per_session():
+        print(f'## Crafting Interpreters Study Group:  Session {session} ({Title})\n\n')
+        print(f'### Homework:\n\n')
+        print(f'- Read {chapter_description}\n\n')
+        print(f'### Extra Homework:\n\n')
+        print(f'- do the challenges of the chapter\n\n')
+        print(f'\n\nWe **review** this work on {datetime(*dates_with_no_holidays[date_index]).strftime("%A, %d. %B %Y %H:%M")}\n\n')
+        date_index += 1
+
+
+def ics():
+    cal = Calendar()
+    meeting_link = "https://codersonly.whereby.com/hello"
+    for date, (session, description, title) in zip(dates_with_no_holidays, content_per_session()):
+        date = datetime(tzinfo=ZoneInfo("Europe/Zurich"), *date)
+        event = Event()
+        event.add('summary', 'Crafting Interpreters Study Group')
+        event.add('description', f'Crafting Interpreters Study Group [{session}]\n\n{title}\n\n{description}\n\nMeeting Link: {meeting_link}')
+        event.add('dtstart', date)
+        event.add('dtend', date + timedelta(hours=1, minutes=30))
+        cal.add_component(event)
+    print(cal.to_ical().decode('utf-8'))
 
 
 if __name__ == '__main__':
-    markdown_output()
-    for c in content_per_session():
-        print(c)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i", "--ics", action="store_true")
+    parser.add_argument("-m", "--markdown", action="store_true")
+    args = parser.parse_args()
+
+    if args.markdown:
+        markdown_output()
+    elif args.ics:
+        ics()
+    else:
+        for c in content_per_session():
+            print(c)
