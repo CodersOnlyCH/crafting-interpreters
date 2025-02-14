@@ -1,0 +1,235 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250109T190000
+DTEND;TZID=Europe/Zurich:20250109T203000
+DESCRIPTION:Crafting Interpreters Study Group [1]\n\nIntroduction\n\nChapt
+ er 1: https://craftinginterpreters.com/introduction.html\n\nMeeting Link:
+ https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250123T190000
+DTEND;TZID=Europe/Zurich:20250123T203000
+DESCRIPTION:Crafting Interpreters Study Group [2]\n\nA map of the territor
+ y / The lox language\n\nChapter 2: https://craftinginterpreters.com/a-map-
+ of-the-territory.html Chapter 3: https://craftinginterpreters.com/the-lox-
+ language.html\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250213T190000
+DTEND;TZID=Europe/Zurich:20250213T203000
+DESCRIPTION:Crafting Interpreters Study Group [3]\n\nScanning\n\nChapter 4
+ : https://craftinginterpreters.com/scanning.html\n\nMeeting Link: https://
+ codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250227T190000
+DTEND;TZID=Europe/Zurich:20250227T203000
+DESCRIPTION:Crafting Interpreters Study Group [4]\n\nRepresenting code\n\n
+ Chapter 5: https://craftinginterpreters.com/representing-code.html\n\nMeet
+ ing Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250313T190000
+DTEND;TZID=Europe/Zurich:20250313T203000
+DESCRIPTION:Crafting Interpreters Study Group [5]\n\nParsing expressions\n
+ \nChapter 6: https://craftinginterpreters.com/parsing-expressions.html\n\n
+ Meeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250327T190000
+DTEND;TZID=Europe/Zurich:20250327T203000
+DESCRIPTION:Crafting Interpreters Study Group [6]\n\nEvaluating expression
+ s\n\nChapter 7: https://craftinginterpreters.com/evaluating-expressions.ht
+ ml\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250410T190000
+DTEND;TZID=Europe/Zurich:20250410T203000
+DESCRIPTION:Crafting Interpreters Study Group [7]\n\nStatements and state\
+ n\nChapter 8: https://craftinginterpreters.com/statements-and-state.html\n
+ \nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250515T190000
+DTEND;TZID=Europe/Zurich:20250515T203000
+DESCRIPTION:Crafting Interpreters Study Group [8]\n\nControl flow\n\nChapt
+ er 9: https://craftinginterpreters.com/control-flow.html\n\nMeeting Link:
+ https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250529T190000
+DTEND;TZID=Europe/Zurich:20250529T203000
+DESCRIPTION:Crafting Interpreters Study Group [9]\n\nFunctions\n\nChapter
+ 10: https://craftinginterpreters.com/functions.html\n\nMeeting Link: https
+ ://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250612T190000
+DTEND;TZID=Europe/Zurich:20250612T203000
+DESCRIPTION:Crafting Interpreters Study Group [10]\n\nResolving and bindin
+ g\n\nChapter 11: https://craftinginterpreters.com/resolving-and-binding.ht
+ ml\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250626T190000
+DTEND;TZID=Europe/Zurich:20250626T203000
+DESCRIPTION:Crafting Interpreters Study Group [11]\n\nClasses\n\nChapter 1
+ 2: https://craftinginterpreters.com/classes.html\n\nMeeting Link: https://
+ codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250710T190000
+DTEND;TZID=Europe/Zurich:20250710T203000
+DESCRIPTION:Crafting Interpreters Study Group [12]\n\nInheritance\n\nChapt
+ er 13: https://craftinginterpreters.com/inheritance.html\n\nMeeting Link:
+ https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250828T190000
+DTEND;TZID=Europe/Zurich:20250828T203000
+DESCRIPTION:Crafting Interpreters Study Group [13]\n\nChunks of bytecode\n
+ \nChapter 14: https://craftinginterpreters.com/chunks-of-bytecode.html\n\n
+ Meeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250911T190000
+DTEND;TZID=Europe/Zurich:20250911T203000
+DESCRIPTION:Crafting Interpreters Study Group [14]\n\nA virtual machine\n\
+ nChapter 15: https://craftinginterpreters.com/a-virtual-machine.html\n\nMe
+ eting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20250925T190000
+DTEND;TZID=Europe/Zurich:20250925T203000
+DESCRIPTION:Crafting Interpreters Study Group [15]\n\nScanning on demand\n
+ \nChapter 16: https://craftinginterpreters.com/scanning-on-demand.html\n\n
+ Meeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20251023T190000
+DTEND;TZID=Europe/Zurich:20251023T203000
+DESCRIPTION:Crafting Interpreters Study Group [16]\n\nCompiling expression
+ s\n\nChapter 17: https://craftinginterpreters.com/compiling-expressions.ht
+ ml\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20251113T190000
+DTEND;TZID=Europe/Zurich:20251113T203000
+DESCRIPTION:Crafting Interpreters Study Group [17]\n\nTypes of values\n\nC
+ hapter 18: https://craftinginterpreters.com/types-of-values.html\n\nMeetin
+ g Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20251127T190000
+DTEND;TZID=Europe/Zurich:20251127T203000
+DESCRIPTION:Crafting Interpreters Study Group [18]\n\nStrings\n\nChapter 1
+ 9: https://craftinginterpreters.com/strings.html\n\nMeeting Link: https://
+ codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20251211T190000
+DTEND;TZID=Europe/Zurich:20251211T203000
+DESCRIPTION:Crafting Interpreters Study Group [19]\n\nHash tables\n\nChapt
+ er 20: https://craftinginterpreters.com/hash-tables.html\n\nMeeting Link:
+ https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260108T190000
+DTEND;TZID=Europe/Zurich:20260108T203000
+DESCRIPTION:Crafting Interpreters Study Group [20]\n\nGlobal variables\n\n
+ Chapter 21: https://craftinginterpreters.com/global-variables.html\n\nMeet
+ ing Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260122T190000
+DTEND;TZID=Europe/Zurich:20260122T203000
+DESCRIPTION:Crafting Interpreters Study Group [21]\n\nLocal variables\n\nC
+ hapter 22: https://craftinginterpreters.com/local-variables.html\n\nMeetin
+ g Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260226T190000
+DTEND;TZID=Europe/Zurich:20260226T203000
+DESCRIPTION:Crafting Interpreters Study Group [22]\n\nJumping back and for
+ th\n\nChapter 23: https://craftinginterpreters.com/jumping-back-and-forth.
+ html\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260312T190000
+DTEND;TZID=Europe/Zurich:20260312T203000
+DESCRIPTION:Crafting Interpreters Study Group [23]\n\nCalls and functions\
+ n\nChapter 24: https://craftinginterpreters.com/calls-and-functions.html\n
+ \nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260326T190000
+DTEND;TZID=Europe/Zurich:20260326T203000
+DESCRIPTION:Crafting Interpreters Study Group [24]\n\nClosures\n\nChapter
+ 25: https://craftinginterpreters.com/closures.html\n\nMeeting Link: https:
+ //codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260409T190000
+DTEND;TZID=Europe/Zurich:20260409T203000
+DESCRIPTION:Crafting Interpreters Study Group [25]\n\nGarbage collection\n
+ \nChapter 26: https://craftinginterpreters.com/garbage-collection.html\n\n
+ Meeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260514T190000
+DTEND;TZID=Europe/Zurich:20260514T203000
+DESCRIPTION:Crafting Interpreters Study Group [26]\n\nClasses and instance
+ s\n\nChapter 27: https://craftinginterpreters.com/classes-and-instances.ht
+ ml\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260528T190000
+DTEND;TZID=Europe/Zurich:20260528T203000
+DESCRIPTION:Crafting Interpreters Study Group [27]\n\nMethods and initiali
+ zers\n\nChapter 28: https://craftinginterpreters.com/methods-and-initializ
+ ers.html\n\nMeeting Link: https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260611T190000
+DTEND;TZID=Europe/Zurich:20260611T203000
+DESCRIPTION:Crafting Interpreters Study Group [28]\n\nSuperclasses\n\nChap
+ ter 29: https://craftinginterpreters.com/superclasses.html\n\nMeeting Link
+ : https://codersonly.whereby.com/hello
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crafting Interpreters Study Group
+DTSTART;TZID=Europe/Zurich:20260625T190000
+DTEND;TZID=Europe/Zurich:20260625T203000
+DESCRIPTION:Crafting Interpreters Study Group [29]\n\nOptimization\n\nChap
+ ter 30: https://craftinginterpreters.com/optimization.html\n\nMeeting Link
+ : https://codersonly.whereby.com/hello
+END:VEVENT
+END:VCALENDAR
