@@ -50,6 +50,7 @@ https://github.com/CodersOnlyCH/crafting-interpreters
 ##### Nebucatnetzer (Andreas Zweili)
 
 Link: https://github.com/Nebucatnetzer/crafting-interpreters
+
 Features:
 
 - Nix and Nix Flakes
