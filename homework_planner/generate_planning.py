@@ -171,7 +171,7 @@ if __name__ == '__main__':
     parser.add_argument("-i", "--ics", action="store_true")
     parser.add_argument("-m", "--markdown", action="store_true")
     args = parser.parse_args()
-
+    markdown_output()
     if args.markdown:
         markdown_output()
     elif args.ics:
